@@ -1,101 +1,85 @@
 import Image from "next/image";
+import Lanyard from "./components/Lanyard/Lanyard";
+import RotatingText from "./components/RotatingText/RotatingText";
+import SplitText from "./components/SplitText/SplitText";
+import BlurText from "./components/BlurText/BlurText";
+import AnimatedContent from "./components/AnimatedContent/AnimatedContent";
+import Squares from "./components/Squares/Squares";
+import SplashCursor from "./components/SplashCursor/SplashCursor";
+import CircularText from "./components/CircularText/CircularText";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+    <div className="min-h-screen overflow-x-hidden bg-[#19222D]">
+      <SplashCursor />
+      <div className="absolute top-0 right-0 left-0 bottom-0 w-full h-full">
+        <Squares 
+          speed={0.5} 
+          squareSize={40}
+          direction='diagonal' 
+          borderColor='#444A29'
+          hoverFillColor='#19222D'
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+      </div>
+      <div className="container mx-auto min-h-screen px-4 py-8 md:py-0">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 h-auto md:h-screen">
+          <div className="col-span-1 md:col-span-6 relative flex items-center justify-center min-h-[300px]">
+            <Lanyard position={[0, 0, 12]} gravity={[0, -40, 0]} />
+            <CircularText
+              text="ARLISS*ZWINGLI*SITANGGANG*"
+              onHover="speedUp"
+              spinDuration={20}
+              className="absolute hidden md:block md:top-60 md:right-28"
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          </div>
+          <div className="col-span-1 md:col-span-6">
+            <div className="flex items-center h-full py-8 md:py-0">
+              <div className="flex flex-col gap-6 w-full">
+                <AnimatedContent 
+                  distance={150}
+                  direction="horizontal"
+                  reverse={false}
+                  config={{ tension: 80, friction: 20 }}
+                  initialOpacity={0.2}
+                  animateOpacity
+                  scale={1.1}
+                  threshold={0.2}
+                >
+                  <div className="flex flex-wrap items-center gap-2">
+                  </div>
+                </AnimatedContent>
+                <div className="flex flex-col items-start">
+                  <SplitText 
+                    text="I'm Arliss Zwingli"
+                    className="text-4xl sm:text-5xl md:text-6xl font-semibold text-start text-white"
+                    delay={50}
+                    animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                    animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                    threshold={0.2}
+                    rootMargin="-50px"
+                  />
+                  <SplitText 
+                    text="Editor & Developer"
+                    className="text-4xl sm:text-5xl md:text-6xl font-semibold text-start text-[#C6F10E]"
+                    delay={75}
+                    animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                    animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                    threshold={0.2}
+                    rootMargin="-50px"
+                  />
+                </div>
+                <BlurText 
+                  text="I'm Arliss Zwingli Sitanggang, an Information Systems student at Universitas Advent, focused on multimedia design. I have experience in graphic design and manage Winfonesia, an online magazine. I'm currently seeking an internship as an Editor to grow professionally."
+                  delay={60}
+                  animateBy="words"
+                  direction="top"
+                  className="text-base sm:text-lg md:text-xl mb-8 text-white"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
     </div>
   );
 }
