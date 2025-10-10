@@ -1,6 +1,6 @@
 services:
   arliss-zwingli-sitanggang:
-    image: arliss-zwingli-sitanggang:v1.0.0
+    image: registry.goalkes.com/arliss-zwingli:v1.0.0
     ports:
       - "3007:3007"
     environment:
