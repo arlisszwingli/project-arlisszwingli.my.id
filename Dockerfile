@@ -32,6 +32,7 @@ RUN adduser --system --uid 1001 arliss-zwingli-sitanggang
 
 ENV NEXT_TELEMETRY_DISABLED=1
 ENV NODE_ENV=production
+ENV PORT=3007
 
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next/standalone ./
