@@ -34,7 +34,7 @@ ENV NEXT_TELEMETRY_DISABLED=1
 ENV NODE_ENV=production
 
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/standalone ./standalone
+COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
 
 RUN chown -R arliss-zwingli-sitanggang:arliss-zwingli-sitanggang /app
@@ -43,4 +43,4 @@ USER arliss-zwingli-sitanggang
 
 EXPOSE 3007
 
-CMD ["pnpm", "server.js"]
+CMD ["node", "server.js"]
