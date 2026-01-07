@@ -25,6 +25,16 @@ const lanyard = "/assets/lanyard/lanyard.png";
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 
+// Extend JSX types for meshline components
+declare module "react" {
+  namespace JSX {
+    interface IntrinsicElements {
+      meshLineGeometry: any;
+      meshLineMaterial: any;
+    }
+  }
+}
+
 interface LanyardProps {
   position?: [number, number, number];
   gravity?: [number, number, number];
