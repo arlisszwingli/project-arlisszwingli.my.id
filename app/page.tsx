@@ -1,7 +1,5 @@
 import Lanyard from "./components/Lanyard/Lanyard";
-import RotatingText from "./components/RotatingText/RotatingText";
 import SplitText from "./components/SplitText/SplitText";
-import BlurText from "./components/BlurText/BlurText";
 import AnimatedContent from "./components/AnimatedContent/AnimatedContent";
 import Squares from "./components/Squares/Squares";
 import SplashCursor from "./components/SplashCursor/SplashCursor";

@@ -76,22 +76,17 @@ export default function AboutPage() {
                 <span className="text-[#C6F10E]">Arliss Zwingli Sitanggang</span>
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-white/80">
-                I&apos;m an Information Systems student at Universitas Advent
-                Indonesia, with a focus on multimedia design. I work across
-                graphic design, web development, and editorial—currently as an
-                Editor at Winfonesia, an online magazine. I&apos;m looking for
-                opportunities to grow as an Editor and Designer.
+                I&apos;m an Information Systems graduate from Universitas Advent Indonesia. I work in graphic design and editorial, with a focus on crafting visual identities and shaping stories through thoughtful, structured work.
               </p>
-              <div className="mt-8">
+              <div className="mt-10">
                 <h2 className="text-xl font-semibold text-[#C6F10E]">
                   My story
                 </h2>
                 <p className="mt-3 text-white/80 leading-relaxed">
-                  I got into design through a mix of curiosity and necessity:
-                  making posters, editing visuals, and later building websites.
-                  That path led me to multimedia—where I can combine layout,
-                  motion, and code in one place. I care about clarity, consistency,
-                  and making things that are both useful and visually strong.
+                  Information Technology was never part of the plan. When I enrolled in Information Systems, it wasn't out of passion—it was just where I ended up. And for a while, it felt that way too. The technical, code-heavy side of the major never quite clicked with me.
+                  <br/><br/>Then, almost by accident, I heard about "multimedia." I looked into it out of curiosity, and something clicked—this was it. This was the thing I'd been doing all along without realizing it had a name. Back in middle school, I was already editing videos on my phone, piecing clips together just because I enjoyed it, with no bigger goal in mind.
+                  <br/><br/>That curiosity eventually led me to a workshop organized by my faculty's student organization, where I got my first real introduction to professional Adobe software. What started as casual phone editing turned into something I could actually learn, refine, and take seriously.
+                  <br/><br/>Since then, multimedia design—editing, visuals, storytelling—has been what I've stuck with, even though my degree says Information Systems. It's a bit of an unusual path, but it's the one that actually fits.
                 </p>
               </div>
             </div>

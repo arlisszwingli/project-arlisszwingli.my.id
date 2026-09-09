@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Arliss Zwingli Sitanggang — Home",
+  title: "Home — Arliss Zwingli Sitanggang",
   description:
     "Portfolio of Arliss Zwingli Sitanggang — Multimedia Designer, Graphic Designer, and Web Developer. Editor at Winfonesia.",
   icons: {
