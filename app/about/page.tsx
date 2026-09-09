@@ -25,32 +25,49 @@ const tools = [
   "Adobe Photoshop",
   "Adobe InDesign",
   "Figma",
-  "Next.js",
-  "React",
-  "TypeScript",
+  "Canva",
+  "Adobe Premiere Pro",
   "Tailwind CSS",
   "DaVinci Resolve",
 ];
 
 const timeline = [
   {
-    year: "2024 – Present",
-    title: "Editor & Content",
-    org: "Winfonesia",
-    description: "Managing content and visual direction for the online magazine.",
-  },
-  {
-    year: "2024 – Present",
-    title: "Student",
-    org: "Universitas Advent Indonesia",
-    description: "Information Systems, focused on multimedia design and development.",
-  },
-  {
     year: "2023",
-    title: "Design & Multimedia",
-    org: "UKM MULMED",
-    description: "Active in the multimedia community and event branding.",
+    title: "UKM Multimedia",
+    org: "IT VERSE",
+    description: "Completed basic graphic design editing training and learned to use Adobe Premiere Pro, along with Adobe Photoshop, Lightroom, and Snapseed for photo and video editing.",
   },
+  {
+    year: "April 2024",
+    title: "Cyber Cup 4.0 IT Competition",
+    org: "By HIMA FTI",
+    description: "Won an IT competition with a team of friends, competing in a category covering web development and basic algorithms. The competition was open to students from the Faculty of Information Technology (FTI)."
+  },
+  {
+    year: "August 2024",
+    title: "PKKMB Universitas Advent Indonesia",
+    org: "Multimedia Division",
+    description: "Designed social media content, publication posters, merchandise, and banners for the PPKMB 2024 event using Adobe Photoshop, Illustrator, and Canva. Collaborated with the multimedia team to maintain visual consistency across all event promotional materials.",
+  },
+  {
+    year: "May - August 2025",
+    title: "Kantor GMAHK Konferens Jakarta",
+    org: "Multimedia Intership",
+    description: "Designed social media content (feed and story posts) and edited office documentation videos. Designed a logo for the podcast. Documented activities both outside the office and recordings in the office studio..",
+  },
+  {
+    year: "May 2026",
+    title: "Multimedia Staff",
+    org: "Altiora Senior Class Universitas Advent Indonesia 2026",
+    description: "Designed a new logo for Altiora 2026. Designed publication materials (posters) and social media content, and edited documentation photos/videos for the Senior Class 2026 event. Edited the Altiora 2026 Kaleidoscope video."
+  },
+  {
+     year: "2022 - 2026",
+    title: "S1 Information Systems",
+    org: "Universitas Advent Indonesia",
+    description: "Completed a Bachelor's degree in Information Systems from Universitas Advent Indonesia, Bandung, earning the title S.Kom (Sarjana Komputer)."
+  }
 ];
 
 export default function AboutPage() {
@@ -62,7 +79,7 @@ export default function AboutPage() {
             <div className="lg:col-span-4">
               <div className="relative aspect-square max-w-sm overflow-hidden rounded-2xl border border-white/10 bg-white/5">
                 <Image
-                  src="/arliss.jpg"
+                  src="/images/arliss.jpeg"
                   alt="Arliss Zwingli Sitanggang"
                   fill
                   className="object-cover"
