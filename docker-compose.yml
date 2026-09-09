@@ -1,0 +1,14 @@
+services:
+  arliss-zwingli-sitanggang:
+    image: registry.goalkes.com/arliss-zwingli:v1.0.0
+    ports:
+      - "3007:3007"
+    environment:
+      - NODE_ENV=production
+    restart: always
+    networks:
+      - rigel-network
+
+networks:
+  rigel-network:
+    external: true
