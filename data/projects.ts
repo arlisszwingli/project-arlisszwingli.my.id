@@ -84,7 +84,25 @@ export const projects = [
     gallery: ["/images/experience/cbWin.jpg"],
   },
     {
-    slug: "cbwin-project",
+    slug: "rantosstad-brand-project",
+    title: "Rantosstad Brand Project",
+    description: "Multimedia project showcasing event coverage and creative documentation.",
+    image: "/images/experience/rantosstad/10TAngels.png",
+    tags: ["Multimedia", "Editorial", "Photography"],
+    year: "2024",
+    role: "Editor & Multimedia Designer",
+    content: "Led editorial and visual direction for the CB Win project, including photo selection, layout design, and publication preparation. This project highlighted the intersection of design and storytelling.",
+    tools: ["Adobe InDesign", "Adobe Lightroom", "Photoshop"],
+    gallery: [
+      "/images/experience/rantosstad/10TAngels.png",
+      "/images/experience/rantosstad/mockup10t.png",
+      "/images/experience/rantosstad/nbnl.png",
+      "/images/experience/rantosstad/mockupnbnl.png",
+      "/images/experience/rantosstad/nbnlbelakang.png"
+    ],
+  },
+  {
+    slug: "cbwin-pr",
     title: "CB Win Project",
     description: "Multimedia project showcasing event coverage and creative documentation.",
     image: "/images/experience/cbWin.jpg",

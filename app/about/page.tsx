@@ -6,13 +6,12 @@ import Section from "@/components/Section";
 export const metadata: Metadata = {
   title: "About — Arliss Zwingli Sitanggang",
   description:
-    "Learn about Arliss Zwingli — Multimedia Designer, Graphic Designer, and Web Developer.",
+    "Learn about Arliss Zwingli Sitanggang",
 };
 
 const skills = [
   "Graphic Design",
   "UI/UX Design",
-  "Web Development",
   "Video Editing",
   "Branding",
   "Typography",
@@ -27,7 +26,7 @@ const tools = [
   "Figma",
   "Canva",
   "Adobe Premiere Pro",
-  "Tailwind CSS",
+  "CapCut",
   "DaVinci Resolve",
 ];
 

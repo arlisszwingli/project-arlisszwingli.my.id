@@ -2,13 +2,11 @@ import Lanyard from "./components/Lanyard/Lanyard";
 import SplitText from "./components/SplitText/SplitText";
 import AnimatedContent from "./components/AnimatedContent/AnimatedContent";
 import Squares from "./components/Squares/Squares";
-import SplashCursor from "./components/SplashCursor/SplashCursor";
 import CircularText from "./components/CircularText/CircularText";
 
 export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden bg-[#19222D]">
-      <SplashCursor />
       <div className="absolute top-0 right-0 left-0 bottom-0 w-full h-full">
         <Squares 
           speed={0.5} 
@@ -47,7 +45,7 @@ export default function Home() {
                 </AnimatedContent>
                 <div className="flex flex-col items-start">
                   <SplitText 
-                    text="Hi! I'm Arliss Zwingli"
+                    text="Welcome to my world!"
                     className="text-4xl sm:text-5xl md:text-6xl font-semibold text-start text-white"
                     delay={50}
                     animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
@@ -56,8 +54,8 @@ export default function Home() {
                     rootMargin="-50px"
                   />
                   <SplitText 
-                    text="Editor & Graphic Designer"
-                    className="text-4xl sm:text-5xl md:text-6xl font-semibold text-start text-[#C6F10E]"
+                    text="Design. Edit. Create."
+                    className="text-4xl sm:text-5xl md:text-6xl font-semibold text-left text-[#C6F10E] leading-[1.3] pb-2 overflow-visible"
                     delay={75}
                     animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
                     animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
