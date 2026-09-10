@@ -26,6 +26,7 @@ export const projects = [
     content: "Developed the visual identity for UKM MULMED, including logo concepts, color systems, and application across digital and print media. The identity reflects creativity and technical excellence in multimedia design.",
     tools: ["Adobe Illustrator", "Figma"],
     gallery: [
+      "/images/experience/logoaltiora.png",
       "/images/experience/altiora/altiora1.png",
       "/images/experience/altiora/altiora2.png",
       "/images/experience/altiora/altiora3.png",

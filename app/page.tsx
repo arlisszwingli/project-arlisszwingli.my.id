@@ -43,7 +43,7 @@ export default function Home() {
                   <div className="flex flex-wrap items-center gap-2">
                   </div>
                 </AnimatedContent>
-                <div className="flex flex-col items-start">
+                <div className="flex flex-col items-start -translate-x-0 -translate-y-10 sm:-translate-x-10">
                   <SplitText 
                     text="Welcome to my world!"
                     className="text-4xl sm:text-5xl md:text-6xl font-semibold text-start text-white"

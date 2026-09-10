@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Container from "@/components/Container";
 import Section from "@/components/Section";
+import LogoLoop from "@/components/LogoLoop";
 
 export const metadata: Metadata = {
   title: "About — Arliss Zwingli Sitanggang",
@@ -29,6 +30,18 @@ const tools = [
   "CapCut",
   "DaVinci Resolve",
 ];
+
+const toolLogos = [
+  { src: "images/logos/ilustrator.png" },
+  { src: "images/logos/photoshop.png" },
+  { src: "images/logos/lightroomclassic.png" },
+  { src: "https://cdn.simpleicons.org/adobeindesign" },
+  { src: "https://cdn.simpleicons.org/figma", alt: "Figma" },
+  { src: "https://cdn.simpleicons.org/canva" },
+  { src: "images/logos/premierepro.png" },
+  { src: "https://cdn.simpleicons.org/davinciresolve" },
+];
+
 
 const timeline = [
   {
@@ -149,6 +162,19 @@ export default function AboutPage() {
               </li>
             ))}
           </ul>
+
+          <div className="mt-10">
+            <LogoLoop
+              logos={toolLogos}
+              speed={90}
+              direction="left"
+              pauseOnHover
+              fadeOut
+              fadeOutColor="FFFFFF05"
+              scaleOnHover
+              ariaLabel="Tools and software logos"
+            />
+          </div>
         </Container>
       </Section>
 
