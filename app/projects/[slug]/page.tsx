@@ -27,7 +27,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${project.title} — Arliss Zwingli`,
+    title: `${project.title} — Arliss Zwingli Sitanggang`,
     description: project.description,
     openGraph: {
       images: [project.image],
@@ -64,7 +64,7 @@ export default async function ProjectDetailPage({
               src={project.image}
               alt={project.title}
               fill
-              className="object-cover"
+              className="object-contain"
               priority
               sizes="100vw"
             />

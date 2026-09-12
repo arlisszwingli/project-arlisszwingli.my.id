@@ -1,5 +1,49 @@
 export const blogPosts = [
   {
+    slug: "first-post-myopentrip",
+    title: "One Platform, Every Journey",
+    excerpt: "A short reflection on choosing the path of multimedia design and how it combines my love for visual storytelling and technology.",
+    content: `Halo semua, ini adalah artikel pertamaku di blog ini.
+
+              Yaa bisa dibilang ini juga adalah sebuah wadah bagiku sendiri untuk bercerita atau curhat hehe :). So, jangan bosan lihat seluruh ceritaku yaaaa. Ini menjadi artikel perkenalan sekaligus cerita tentang perjalanan saya membangun platform MyOpentrip.
+
+              7 Juni 2026 saya Wisuda dari Universitas Advent Indonesia Bandung dengan membawa gelar S.kom (Sarjana Komputer).
+
+              Sebagai seorang fresh graduate Sistem Informasi yang punya kecintaan besar terhadap alam dan dunia wisata, khususnya hiking/pendakian gunung. Beberapa waktu terakhir, saya melihat tren hiking dan opentrip semakin populer di kalangan anak muda gen Z. Sayangnya, di balik euforia ini, masih banyak keresahan soal keamanan opentrip mulai dari penyedia yang kurang jelas track record-nya, minimnya informasi wisata yang akurat, sampai sulitnya akses transportasi menuju lokasi.
+
+              Dari situ, muncul keinginan untuk membuat sesuatu yang bisa membantu para pendaki dan pecinta alam merasa lebih aman dan nyaman saat merencanakan perjalanan. Bersama abang saya yang berprofesi sebagai Web Developer, kami mulai membangun sebuah wadah/platform yang menghadirkan:
+
+              🧭 Opentrip — dengan informasi penyedia trip yang lebih transparan
+
+              🏞️ Pengalaman wisata (experience) — cerita dan review dari para pendaki
+
+              ℹ️ Info wisata — data seputar destinasi, jalur, dan persiapan pendakian
+
+              🚗 Sewa kendaraan — memudahkan akses transportasi ke lokasi wisata
+
+              💬 Forum — ruang diskusi antar pendaki untuk berbagi tips, bertanya, dan saling terhubung
+
+  
+
+Sebagai fresh graduate yang butuh pengalaman dan harus berjuang di dalam karir, ini menjadi salah satu langkah awal saya untuk menggabungkan passion di bidang teknologi (Sistem Informasi) dengan kecintaan saya terhadap alam. Semoga platform ini bisa menjadi wadah yang bermanfaat bagi teman-teman pecinta alam di luar sana, agar setiap perjalanan bisa lebih aman, terencana, dan berkesan.
+
+
+
+Untuk platformnya juga sudah mulai kelihatan yang bisa dilihat di https://myopentrip.com/
+
+tentunya untuk website ini belum sempurna, masih pengembangan terlebih di pembayaran langsung di website tanpa harus beralih ke WhatsApp terlebih dahulu.
+
+
+
+Terima kasih untuk siapa pun yang sudah mendukung proses ini. Mari terus berkarya!
+
+In this field, every project is a puzzle. You balance aesthetics with usability, creativity with constraints, and personal style with client needs. Whether I'm designing a poster, building a website, or editing a video, the same principles apply: clarity, consistency, and intention.
+
+I'm excited to keep learning and to share more of my process and thoughts here. Thanks for reading.`,
+    date: "2026-09-12",
+    image: "/images/blogIMG/myopentrip.png",
+  },
+  {
     slug: "first-post",
     title: "Why I Chose Multimedia Design",
     excerpt: "A short reflection on choosing the path of multimedia design and how it combines my love for visual storytelling and technology.",

@@ -86,7 +86,7 @@ export const projects = [
   },
     {
     slug: "rantosstad-brand-project",
-    title: "Rantosstad Brand Project",
+    title: "Rantosstad Fashion Brand Local",
     description: "Multimedia project showcasing event coverage and creative documentation.",
     image: "/images/experience/rantosstad/10TAngels.png",
     tags: ["Multimedia", "Editorial", "Photography"],
