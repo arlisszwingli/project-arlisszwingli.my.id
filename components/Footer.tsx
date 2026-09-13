@@ -9,9 +9,9 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { href: "https://linkedin.com", label: "LinkedIn" },
+  { href: "https://linkedin.com/in/arlisszwinglisitanggang", label: "LinkedIn" },
   { href: "https://instagram.com/arlisszs", label: "Instagram" },
-  { href: "https://twitter.com", label: "Twitter" },
+  { href: "https://x.com", label: "X" },
   { href: "https://github.com/arlisszwingli", label: "GitHub" },
 ];
 
@@ -28,7 +28,7 @@ export default function Footer() {
               Arliss Zwingli Sitanggang
             </Link>
             <p className="mt-2 text-sm text-white/70 max-w-xs">
-              Multimedia Designer · Graphic Designer · Web Developer
+              Graphic Designer · Video Editor · UI/UX Designer
             </p>
           </div>
 

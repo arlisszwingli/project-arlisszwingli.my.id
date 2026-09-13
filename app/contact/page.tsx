@@ -5,9 +5,9 @@ import Container from "@/components/Container";
 import Section from "@/components/Section";
 
 const socialLinks = [
-  { href: "https://linkedin.com", label: "LinkedIn" },
+  { href: "https://linkedin.com/in/arlisszwinglisitanggang", label: "LinkedIn" },
   { href: "https://instagram.com/arlisszs", label: "Instagram" },
-  { href: "https://twitter.com", label: "Twitter" },
+  { href: "https://x.com", label: "X" },
   { href: "https://github.com/arlisszwingli", label: "GitHub" },
 ];
 
