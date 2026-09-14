@@ -40,12 +40,6 @@ const toolLogos = [
 
 
 const timeline = [
-    {
-    year: "August 2022",
-    title: "S1 Information Systems",
-    org: "Universitas Advent Indonesia",
-    description: "Starting my college journey by majoring in Information Systems",
-  },
   {
     year: "November 2023",
     title: "UKM Multimedia",
