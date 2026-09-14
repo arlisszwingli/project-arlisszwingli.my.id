@@ -17,7 +17,11 @@ const skills = [
   "Branding",
   "Typography",
   "Illustration",
+  "Videography",
+  "Photography",
   "Multimedia Production",
+  "HTML",
+  "CSS",
 ];
 
 const tools = [
@@ -36,8 +40,14 @@ const toolLogos = [
 
 
 const timeline = [
+    {
+    year: "August 2022",
+    title: "S1 Information Systems",
+    org: "Universitas Advent Indonesia",
+    description: "Starting my college journey by majoring in Information Systems",
+  },
   {
-    year: "2023",
+    year: "November 2023",
     title: "UKM Multimedia",
     org: "IT VERSE",
     description: "Completed basic graphic design editing training and learned to use Adobe Premiere Pro, along with Adobe Photoshop, Lightroom, and Snapseed for photo and video editing.",
@@ -67,7 +77,7 @@ const timeline = [
     description: "Designed a new logo for Altiora 2026. Designed publication materials (posters) and social media content, and edited documentation photos/videos for the Senior Class 2026 event. Edited the Altiora 2026 Kaleidoscope video."
   },
   {
-     year: "2022 - 2026",
+     year: "June 2026",
     title: "S1 Information Systems",
     org: "Universitas Advent Indonesia",
     description: "Completed a Bachelor's degree in Information Systems from Universitas Advent Indonesia, Bandung, earning the title S.Kom (Sarjana Komputer)."
@@ -104,10 +114,11 @@ export default function AboutPage() {
                   My story
                 </h2>
                 <p className="mt-3 text-white/80 leading-relaxed">
-                  Information Technology was never part of the plan. When I enrolled in Information Systems, it wasn't out of passion it was just where I ended up. And for a while, it felt that way too. The technical, code heavy side of the major never quite clicked with me.
-                  <br/><br/>Then, almost by accident, I heard about "multimedia." I looked into it out of curiosity, and something clicked this was it. This was the thing I'd been doing all along without realizing it had a name. Back in middle school, I was already editing videos on my phone, piecing clips together just because I enjoyed it, with no bigger goal in mind.
-                  <br/><br/>That curiosity eventually led me to a workshop organized by my faculty's student organization, where I got my first real introduction to professional Adobe software. What started as casual phone editing turned into something I could actually learn, refine, and take seriously.
-                  <br/><br/>Since then, multimedia design editing, visuals, storytelling has been what I've stuck with, even though my degree says Information Systems. It's a bit of an unusual path, but it's the one that actually fits.
+                  Sistem Informasi sebenarnya tidak pernah masuk dalam rencana saya. Setelah lulus SMA di tahun 2022, ketika mendaftar di jurusan Sistem Informasi, itu bukan karena passion, melainkan karena di situlah akhirnya saya berlabuh. Dan untuk sementara waktu, memang terasa seperti aneh menjalaninya. Sisi teknis dan penuh coding dari jurusan ini memang tidak sesuai dengan saya.
+                  <br/><br/>Lalu, hampir tidak sengaja, saya mendengar tentang "Multimedia." Saya mencoba mencari tahu karena penasaran, dan tiba-tiba terasa pas ini yang saya cari selama ini. Ternyata ini hal yang sudah saya lakukan sejak dulu tanpa sadar kalau ternyata ada namanya. Sejak SMP saya sudah suka mengedit video di HP, menyusun klip-klip hanya karena menikmatinya, tanpa ada tujuan besar apa pun.
+                  <br/><br/>Rasa penasaran itu akhirnya membawa saya ke sebuah workshop yang diadakan oleh organisasi mahasiswa di fakultas, di mana saya pertama kali benar-benar dikenalkan dengan software Adobe secara profesional. Yang tadinya hanya editing santai di HP, berubah menjadi sesuatu yang benar-benar bisa saya pelajari, asah, dan tekuni dengan serius.
+                  <br/><br/>Saya mencoba ikut beberapa kegiatan termasuk bergabung dengan organisasi yang berhubungan dengan Multimedia di kampus. Dan ya benar saja, saya lebih banyak di tolak dan tidak sedikit orang-orang yang meremehkan saya. Tapi itu tidak masalah, karena dengan itu saya yakin bisa semakin kuat untuk diri saya menekuni bidang ini.
+                  <br/><br/>Sejak saat itu, dunia desain, editing, visual, storytelling bahkan filmaking menjadi hal yang terus saya jalani, meskipun gelar saya tetap Sistem Informasi (S.kom). Memang jalannya tidak biasa, tapi inilah perjalanan hidup yang penuh dengan misteri dan inilah yang paling sesuai dengan diri saya.
                 </p>
               </div>
             </div>

@@ -5,7 +5,7 @@ export const blogPosts = [
     excerpt: "Refleksi singkat tentang membangun cara yang lebih aman untuk menjelajah, satu jalur pada satu waktu.",
     content: `Halo semua, ini adalah artikel pertamaku di blog ini.
 
-              Yaa bisa dibilang ini juga adalah sebuah wadah bagiku sendiri untuk bercerita atau curhat hehe :). So, jangan bosan lihat seluruh ceritaku yaaaa. Ini menjadi artikel perkenalan sekaligus cerita tentang perjalanan saya membangun platform MyOpentrip.
+              Yaa bisa dibilang ini juga adalah sebuah wadah bagiku sendiri untuk bercerita atau curhat hehe :). So, jangan bosan lihat seluruh ceritaku yaaaa. Ini menjadi artikel perkenalan sekaligus cerita tentang perjalanan saya ikut dalam membangun platform MyOpentrip.
 
               7 Juni 2026 saya Wisuda dari Universitas Advent Indonesia Bandung dengan membawa gelar S.kom (Sarjana Komputer).
 
