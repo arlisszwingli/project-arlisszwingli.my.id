@@ -2,11 +2,11 @@ export const projects = [
   {
     slug: "sports-poster-project",
     title: "Sports Poster Project",
-    description: "Poster tentang Sports",
+    description: "Kumpulan desain poster bertema olahraga",
     image: "/images/experience/sports/Badiminton-Poster_01.jpg",
     tags: ["Graphic Design", "Poster", "Sports"],
-    role: "Designer & Illustrator",
-    content: "Poster ini dibuat untuk mengikuti sebuah tantangan dari komunitas desainer sport tentang bagaimana bobroknya Federasi Badminton Indonesia dengan membuat poster yang hanya modal AI (Artificial Inteligence). Padahal banyaknya desainer handal di Indonesia yang bisa di rekrut.",
+    role: "Graphic Designer",
+    content: "Kumpulan poster bertema olahraga yang dibuat untuk kebutuhan konten dan eksplorasi desain",
     tools: ["Adobe Photoshop"],
     gallery: [
       "/images/experience/sports/Badiminton-Poster_01.jpg",
@@ -18,13 +18,13 @@ export const projects = [
   {
     slug: "branding-altiora",
     title: "Altiora UNAI 2026",
-    description: "Create New Logo identity visual assets for Altiora Senior Class Universitas Advent Indonesia.",
+    description: "Mengelola kebutuhan desain, dan editing visual untuk Altiora UNAI",
     image: "/images/experience/logoaltiora.png",
     tags: ["Branding", "Multimedia", "Identity"],
     year: "Mei 2026",
     role: "Staff Multimedia",
-    content: "Developed the visual identity for UKM MULMED, including logo concepts, color systems, and application across digital and print media. The identity reflects creativity and technical excellence in multimedia design.",
-    tools: ["Adobe Illustrator", "Figma"],
+    content: "Menjadi bagian dari Divisi Multimedia Altiora UNAI 2026 yang bertugas mengurus kebutuhan visual selama kegiatan berlangsung. Saya terlibat dalam pembuatan desain, serta proses editing untuk kebutuhan publikasi dan dokumentasi. Project ini juga menjadi ruang untuk menerapkan kemampuan desain dan multimedia dalam sebuah kegiatan bersama tim",
+    tools: ["Adobe Illustrator", "Adobe Photoshop"],
     gallery: [
       "/images/experience/logoaltiora.png",
       "/images/experience/altiora/altiora1.png",
@@ -38,12 +38,12 @@ export const projects = [
   {
     slug: "pkkmb-unai-2024",
     title: "PKKMB 2024 Universitas Advent Indonesia",
-    description: "Campaign visuals and digital assets for SS Purwadhika initiative.",
+    description: "Menjadi bagian dari tim multimedia PKKMB UNAI 2024",
     image: "/images/experience/pkkmb24/stiker.png",
     tags: ["Multimedia", "Digital Design", "PKKMB"],
     year: "August 2024",
     role: "Multimedia Division",
-    content: "Created campaign visuals and supported web presence for the SS Purwadhika project. Combined graphic design with front-end development to deliver a cohesive digital experience.",
+    content: "Menjadi bagian dari Divisi Multimedia dalam kepanitiaan PKKMB UNAI 2024. Bertanggung jawab dalam membuat kebutuhan desain, serta mengolah hasil dokumentasi menjadi konten untuk kebutuhan publikasi dan arsip kegiatan",
     tools: ["Adobe Photoshop", "Canva"],
     gallery: [
       "/images/experience/pkkmb24/stiker.png",

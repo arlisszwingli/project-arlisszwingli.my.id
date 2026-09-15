@@ -28,14 +28,17 @@ const tools = [
 ];
 
 const toolLogos = [
-  { src: "images/logos/ilustrator.png" },
-  { src: "images/logos/photoshop.png" },
-  { src: "images/logos/premierepro.png" },
-  { src: "images/logos/lightroomclassic.png" },
-  { src: "images/logos/indesign.png" },
+  { src: "images/logos/ilustrator.png", alt: "Adobe Illustrator" },
+  { src: "images/logos/photoshop.png", alt: "Adobe Photoshop" },
+  { src: "images/logos/premierepro.png", alt: "Adobe Premiere Pro" },
+  { src: "images/logos/lightroomclassic.png", alt: "Adobe Lightroom Classic" },
+  { src: "images/logos/indesign.png", alt: "Adobe InDesign" },
+  { src: "images/logos/canva.png", alt: "Canva" },
   { src: "https://cdn.simpleicons.org/figma", alt: "Figma" },
-  { src: "images/logos/canva.png" },
-  { src: "https://cdn.simpleicons.org/davinciresolve" },
+  { src: "https://cdn.simpleicons.org/davinciresolve", alt: "DaVinci Resolve" },
+  { src: "images/logos/capcut.png", alt: "CapCut" },
+  { src: "images/logos/html.png", alt: "HTML" },
+  { src: "images/logos/css.png", alt: "CSS" },
 ];
 
 
@@ -101,7 +104,7 @@ export default function AboutPage() {
                 <span className="text-[#C6F10E]">Arliss Zwingli Sitanggang</span>
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-white/80">
-                I&apos;m an Information Systems graduate from Universitas Advent Indonesia. I work in graphic design and editorial, with a focus on crafting visual identities and shaping stories through thoughtful, structured work.
+                Lulusan Sistem Informasi dari Universitas Advent Indonesia, sekarang lebih fokus di dunia Desain Grafis, Videografi, dan Filmmaking. Suka mengulik identitas visual dan menyusun cerita lewat karya yang rapi dan terstruktur.
               </p>
               <div className="mt-10">
                 <h2 className="text-xl font-semibold text-[#C6F10E]">

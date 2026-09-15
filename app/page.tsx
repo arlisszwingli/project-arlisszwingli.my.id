@@ -31,10 +31,10 @@ export default function Home() {
             </div>
           </AnimatedContent>
 
-          <div className="flex flex-col items-center gap-1 sm:gap-2">
+          <div className="w-full flex flex-col items-center gap-1 sm:gap-2">
             <SplitText
               text="Welcome to my world!"
-              className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-semibold text-center text-white leading-tight tracking-tight"
+              className="w-max whitespace-nowrap text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-semibold text-center text-white leading-tight tracking-tight"
               delay={50}
               animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
               animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
