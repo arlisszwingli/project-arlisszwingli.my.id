@@ -22,6 +22,8 @@ const skills = [
   "Multimedia Production",
   "HTML",
   "CSS",
+  "JavaScript",
+  "Next.js",
 ];
 
 const tools = [
@@ -77,7 +79,7 @@ const timeline = [
      year: "June 2026",
     title: "S1 Information Systems",
     org: "Universitas Advent Indonesia",
-    description: "Completed a Bachelor's degree in Information Systems from Universitas Advent Indonesia, Bandung, earning the title S.Kom (Sarjana Komputer)."
+    description: "Completed a Bachelor's degree in Information Systems from Universitas Advent Indonesia, Bandung. Earning the title S.Kom (Sarjana Komputer)."
   }
 ];
 
@@ -104,7 +106,7 @@ export default function AboutPage() {
                 <span className="text-[#C6F10E]">Arliss Zwingli Sitanggang</span>
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-white/80">
-                Lulusan Sistem Informasi dari Universitas Advent Indonesia, sekarang lebih fokus di dunia Desain Grafis, Videografi, dan Filmmaking. Suka mengulik identitas visual dan menyusun cerita lewat karya yang rapi dan terstruktur.
+                Lulusan Sistem Informasi dari Universitas Advent Indonesia. Sekarang lebih fokus di dunia Visual Creative. Suka mengulik identitas visual dan menyusun cerita lewat karya yang rapi dan terstruktur.
               </p>
               <div className="mt-10">
                 <h2 className="text-xl font-semibold text-[#C6F10E]">
@@ -115,7 +117,7 @@ export default function AboutPage() {
                   <br/><br/>Lalu, hampir tidak sengaja, saya mendengar tentang "Multimedia." Saya mencoba mencari tahu karena penasaran, dan tiba-tiba terasa pas ini yang saya cari selama ini. Ternyata ini hal yang sudah saya lakukan sejak dulu tanpa sadar kalau ternyata ada namanya. Sejak SMP saya sudah suka mengedit video di HP, menyusun klip-klip hanya karena menikmatinya, tanpa ada tujuan besar apa pun.
                   <br/><br/>Rasa penasaran itu akhirnya membawa saya ke sebuah workshop yang diadakan oleh organisasi mahasiswa di fakultas, di mana saya pertama kali benar-benar dikenalkan dengan software Adobe secara profesional. Yang tadinya hanya editing santai di HP, berubah menjadi sesuatu yang benar-benar bisa saya pelajari, asah, dan tekuni dengan serius.
                   <br/><br/>Saya mencoba ikut beberapa kegiatan termasuk bergabung dengan organisasi yang berhubungan dengan Multimedia di kampus. Dan ya benar saja, saya lebih banyak di tolak dan tidak sedikit orang-orang yang meremehkan saya. Tapi itu tidak masalah, karena dengan itu saya yakin bisa semakin kuat untuk diri saya menekuni bidang ini.
-                  <br/><br/>Sejak saat itu, dunia desain, editing, visual, storytelling bahkan filmaking menjadi hal yang terus saya jalani, meskipun gelar saya tetap Sistem Informasi (S.kom). Memang jalannya tidak biasa, tapi inilah perjalanan hidup yang penuh dengan misteri dan inilah yang paling sesuai dengan diri saya.
+                  <br/><br/>Sejak saat itu, dunia desain, editing, visual, storytelling bahkan filmaking menjadi hal yang terus saya jalani, meskipun gelar saya Sistem Informasi (S.kom). Memang jalannya tidak biasa, tapi inilah perjalanan hidup yang penuh dengan misteri dan inilah yang paling sesuai dengan diri saya.
                 </p>
               </div>
             </div>
